@@ -28,9 +28,11 @@ public class AddressBook {
 		addressBook.addBuddy(b);
 		addressBook.removeBuddy(0);
 		
-		BuddyInfo b = new BuddyInfo("Usain", "213 Minto", "987");
+		 b = new BuddyInfo("Usain", "213 Minto", "987");
 		addressBook.addBuddy(b);
-		System.out.println("hello from eclipse!!!!!"); 
+		System.out.println("hello from eclipse!!!!!");
+		
+		System.out.println(b.printMessage()); 
 	}
 
 }

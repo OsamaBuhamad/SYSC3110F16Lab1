@@ -60,5 +60,10 @@ public class BuddyInfo {
 	}
 	*/ 
 	
+	public String printMessage(){
+		
+		return "added from branch"; 
+	}
+	
 
 }
